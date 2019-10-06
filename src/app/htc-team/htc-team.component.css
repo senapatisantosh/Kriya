@@ -1,0 +1,198 @@
+.htc-container{
+    padding-top: 11rem;
+}
+
+.component-banner{
+    height: 400px;
+    font-weight: 400;
+}
+
+.component-banner-logo{
+    background-image: url(../../assets/images/Teambanner.png);
+    background-size: 100% 100%;
+    opacity: 0.9;
+    display: flex;
+    height: 100%;
+}
+
+.component-logo{
+    text-align: left;
+}
+.component-logo>h1{
+    font-family: exo;
+    font-weight: bold;
+    font-size: 8rem;
+    margin-top: 15rem;
+    color: #23669a; 
+}
+
+.align-center{
+    text-align: center !important;
+}
+
+.align-center>h3{
+    font-family: exo;
+    color: #23669a;
+    font-weight: 600;
+}
+
+.inclusive-icon>i{
+    color: #23669a;
+}
+
+.inclusive-icon{
+    margin-top: -1rem;
+}
+
+.inclusive-icon::after, .inclusive-icon::before{
+    display: inline-block;
+    margin-top: -4px;
+    vertical-align: middle;
+    content: "";
+    background-color: #23669a;
+    width: 48px;
+    height: 1px;
+}
+
+.buttom-margin-alignment{
+    margin-bottom: 4rem;
+}
+
+
+
+
+.demo{ background: #DDDCDA; }
+.email-signature{
+    background-color: #fff;
+    font-family: exo;
+    text-align: center;
+    padding: 50px 20px 20px;
+    margin: 0 20px;
+    box-shadow: 3px 4px 10px rgba(0, 188, 212, 0.29);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.email-signature:before{
+    content: '';
+    height: 208px;
+    width: 100%;
+    background-color: #23669a;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.email-signature .signature-details{
+    padding: 0 0 10px;
+    margin: 0 0 15px;
+    border-bottom: 2px solid #23669a;
+}
+.email-signature .signature-icon{
+    color: #ffffff;
+    background: #d4d4d4;
+    font-size: 60px;
+    line-height: 140px;
+    text-align: center;
+    margin: 0 auto 25px;
+    width: 170px;
+    height: 170px;
+    border: 5px solid #fff;
+    border-radius: 100px;
+}
+.email-signature .title{
+    font-family: exo;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+    color: #23669a;
+}
+.email-signature .post{
+    font-family: exo;
+    text-transform: capitalize;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #23669a;
+}
+.email-signature .signature-content{
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+}
+.email-signature .signature-content li{
+    color: #23669a;
+    font-family: exo;
+    font-size: 13px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.email-signature .signature-content li span{
+    color: #23669a;
+    font-family: exo;
+    font-weight: 600;
+    margin-right: 7px;
+    display: inline-block;
+}
+.email-signature .signature-content li:last-child{ margin: 0; }
+.email-signature .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.email-signature .icon li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.email-signature .icon li a{
+    color:#23669a;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.email-signature .icon li a:hover{ 
+    color: #8187da; 
+}
+
+@media screen and (max-width:479px) {
+    .email-signature{ margin: 0; }
+ 
+    .email-signature .title{ font-size: 20px; }
+}
+
+
+.top-margin{
+    margin-top: 5rem;
+}
+
+.akash{
+    background-image: url(../../assets/images/Team/Akash.jpg) !important;
+    background-size: 100% 100% !important;
+}
+
+.santosh{
+    background-image: url(../../assets/images/Team/Santosh.jpg) !important;
+    background-size: 100% 100% !important;
+}
+
+.prasanna{
+    background-image: url(../../assets/images/Team/Prasanna.jpg) !important;
+    background-size: 100% 100% !important;
+}
+
+.venkatesh{
+    background-image: url(../../assets/images/Team/Venkatesh.jpg) !important;
+    background-size: 100% 100% !important;
+}
+
+.hemanth{
+    background-image: url(../../assets/images/Team/Hemanth.jpg) !important;
+    background-size: 100% 100% !important;
+}

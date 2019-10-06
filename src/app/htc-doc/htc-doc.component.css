@@ -1,0 +1,122 @@
+.htc-container-doc{
+    min-height: 65vh;
+    margin-top: 10rem;
+    width: 80%;
+}
+
+.height-container{
+    min-height: 65vh;
+}
+
+.simple-sidenav .active {
+    border-top: 1px dashed #23669a;
+    border-bottom: 1px dashed #23669a;
+    border-radius:0px; 
+    color: #23669a;
+}
+
+.simple-sidenav__item-content{
+    background-color: white !important;
+    color: #8994a3;
+    font-family: exo;
+    font-weight: bold;
+}
+
+path{
+    fill: #8994a3
+}
+
+.simple-sidenav-submenu .simple-sidenav__item-content{
+    border: none;
+}
+
+.simple-sidenav-submenu>div>div .simple-sidenav__item-content .active{
+    color:#3d54d8 !important;
+}
+
+.simple-sidenav-submenu .simple-sidenav__item-content:hover{
+    color:#3d54d8;
+}
+
+.header-card{
+    font-size: 1rem;
+    line-height: 1.25;
+    background: #fff;
+    color: #494949;
+    margin-bottom: 2.5rem;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(218,224,235,.6);
+    box-shadow: 0 8px 20px 0 rgba(218,224,235,.6);
+    font-weight: 400;
+    border: 0 solid transparent;
+}
+
+.header-card>h2{
+    padding: 1.25rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #23669a;
+    font-family: exo;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+}
+
+.header-context>h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: exo;
+    color: #8994a3;
+}
+
+.doc-cards{
+    padding: 2rem;
+}
+
+.component-card-doc{
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; 
+    padding: 2rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0 rgba(197, 220, 255, 0.6);
+    background-color: #fff;
+    cursor: pointer;
+    transition: -webkit-transform .25s ease;
+    transition: transform .25s ease;
+    transition: transform .25s ease, -webkit-transform .25s ease;
+    transition: transform .25s ease,-webkit-transform .25s ease;
+}
+
+.component-card-doc:hover{
+    box-shadow: 0px 1px 20px 0 rgba(182, 205, 239, 0.97);
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+}
+
+.component-card-doc>h5{
+    font-family: exo;
+    font-weight: bold;
+    color: #23669a;
+}
+
+.side-bar-content{
+    position: fixed;
+    max-width: 15%;
+    min-width: 15%;
+}
+
+.main-content{
+    margin-left: 25%;
+}
+
+.backend-image{
+    width: 64px;
+    height: 64px;
+}
+
+
+
+

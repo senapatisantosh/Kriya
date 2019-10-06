@@ -1,0 +1,78 @@
+.htc-container{
+    padding-top: 11rem;
+}
+
+.component-banner{
+    height: 400px;
+    font-weight: 400;
+}
+
+.component-banner-logo{
+    background-image: url(../../assets/images/Statisticsbanner.png);
+    background-size: 100% 100%;
+    opacity: 0.9;
+    display: flex;
+    height: 100%;
+}
+
+.component-logo{
+    text-align: left;
+}
+.component-logo>h1{
+    font-family: exo;
+    font-weight: bold;
+    font-size: 8rem;
+    margin-top: 15rem;
+    color: #23669a; 
+}
+
+.statistics-card{
+    background-color: #fff;
+    border: none;
+    border-radius: .625rem;
+    box-shadow: 0 0.2rem 2rem rgba(114, 166, 226, 0.64), 
+                0px 0rem 0rem rgba(114, 166, 226, 0.64), 
+                0px 0rem 0rem rgba(114, 166, 226, 0.64), 
+                1px 0rem 0.1875rem rgba(114, 166, 226, 0.64);
+}
+
+.activity-card{
+    height: 20rem;
+}
+
+.align-center{
+    text-align: center !important;
+}
+
+.align-center>h3{
+    font-family: exo;
+    color: #23669a;
+    font-weight: 600;
+}
+
+.inclusive-icon>i{
+    color: #23669a;
+}
+
+.inclusive-icon{
+    margin-top: -1rem;
+}
+
+.inclusive-icon::after, .inclusive-icon::before{
+    display: inline-block;
+    margin-top: -4px;
+    vertical-align: middle;
+    content: "";
+    background-color: #23669a;
+    width: 48px;
+    height: 1px;
+}
+
+.buttom-margin-alignment{
+    margin-bottom: 4rem;
+}
+
+.dashboard-card{
+    padding:2rem;
+}
+
