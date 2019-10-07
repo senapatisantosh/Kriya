@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --port 4301",
-    "build": "ng build",
+    "build": "ng build --prod --base-href /Kriya/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy":"gh-pages -d dist/kriya"
+    "deploy": "gh-pages -d dist/kriya"
   },
   "private": true,
   "dependencies": {

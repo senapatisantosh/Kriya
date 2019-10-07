@@ -5,7 +5,6 @@
 .card{
     display: flex;
     margin: 0;
-    height: calc(98vh - 2 * 2.5rem);
     font-size: 1rem;
     line-height: 1.25;
     color: #d1d1ff;
@@ -16,8 +15,8 @@
     border: 0 solid #3d3780;
     scrollbar-face-color: #554db3;
     scrollbar-track-color: #332e73;
-    background-color: #1fc8db;
-    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-color: #ff9b00;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #ff9b00 51%, #ff9b00 75%);
     color: white;
     opacity: 0.95;
     max-width: 70em;
@@ -89,7 +88,7 @@ form{
 }
 
 #login-button{
-    background-color: #00d977;
+    background-color: #6f7786;
     color: #fff;
     font-weight: bold;
     font-family: exo;
@@ -123,9 +122,7 @@ a.social-icon.fa-google-plus:hover{
 }
 
 #logo{
-    position: absolute;
     margin-left: 2rem;
-    margin-top: -8rem;
 }
 
 #blinking{
